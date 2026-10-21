@@ -1,14 +1,9 @@
-# Overview
+# getting-started-template
 
-This repo was made to generate static templates for Porter's `getting-started` repositories. It uses `docusaurus` to maintain consistency with the core Porter docs.
+This repository is deprecated and no longer maintained.
 
-# Building for Runtimes
+Use https://github.com/porter-dev/starters instead.
 
-You can target a runtime with `npm run build-$RUNTIME`, for example:
+Browse all Porter starters at https://github.com/porter-dev/starters
 
-```
-npm run build-golang
-npm run build-nodejs
-```
-
-The resulting files in the `/build` directory should then be placed in the corresponding repo. This will eventually be replaced by a Github action that does this automatically.
+Get started with Porter: https://docs.porter.run/getting-started/quickstart
